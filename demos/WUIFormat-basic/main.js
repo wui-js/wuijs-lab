@@ -13,6 +13,7 @@ const numberFormatting = () => {
 	const output = document.body.querySelector(".my-output.number");
 	const outputValue = inputValue.wuiToString({ numberPrefix: "$ " });
 	output.innerHTML = "<pre>"
+		+ `<b>Number formatting</b>\n`
 		+ `input value  : ${inputValue}\n`
 		+ `output value : ${outputValue}\n`
 		+ "</pre>";
@@ -25,6 +26,7 @@ const emailValidation = () => {
 	const output = document.body.querySelector(".my-output.email");
 	const valid = email.wuiValidateEmail();
 	output.innerHTML = "<pre>"
+		+ `<b>Email validation</b>\n`
 		+ `input value : ${email}\n`
 		+ `valid       : ${valid}\n`
 		+ "</pre>";
@@ -39,7 +41,8 @@ const localDateFormatting = () => {
 	const output = document.body.querySelector(".my-output.localDate");
 	const outputFormat = "dd/mm/yyyy hh:MM [GMT]zz";
 	const outputValue = date.wuiToString(outputFormat, { utc: false });
-	output.innerHTML = "<b>Local date formatting</b><pre>"
+	output.innerHTML = "<pre>"
+		+ `<b>Local date formatting</b>\n`
 		+ `input format  : ${inputFormat}\n`
 		+ `input value   : ${inputValue}\n`
 		+ `local date    : ${date}\n`
@@ -56,6 +59,7 @@ const utcDateFormatting = () => {
 	const outputFormat = "dd/mm/yyyy hh:MM [GMT]zz";
 	const outputValue = date.wuiToString(outputFormat, { utc: true });
 	output.innerHTML = "<pre>"
+		+ `<b>UTC date formatting</b>\n`
 		+ `input format  : ${inputFormat}\n`
 		+ `input value   : ${inputValue}\n`
 		+ `utc date      : ${date}\n`
