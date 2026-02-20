@@ -45,6 +45,13 @@ const init = () => {
 			id: "row12", data: ["", "A 12", "B 12", "C 12"]
 		}],
 		buttons: [{
+			iconClass: "wui-icon pencil-fill",
+			bgcolor: "#1e90ff",
+			onClick: (index, id) => {
+				output.textContent = `Click button - index: ${index}, id: ${id}`;
+			},
+			enabled: true
+		}, {
 			iconClass: "wui-icon trash-fill",
 			bgcolor: "#f44343",
 			onClick: (index, id) => {
