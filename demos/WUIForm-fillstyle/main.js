@@ -2,8 +2,8 @@ const init = () => {
 	const form = new WUIForm({
 		selector: ".wui-form.my-form",
 		submit: false,
-		//onScrolling: null,
-		//onSubmit: null
+		onScrolling: (top) => { },
+		onSubmit: () => { }
 	});
 	form.init();
 }
