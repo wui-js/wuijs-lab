@@ -19,6 +19,17 @@ const numberFormatting = () => {
 		+ "</pre>";
 }
 
+const numberSizeFormatting = () => {
+	const inputValue = 1234.567;
+	const output = document.body.querySelector(".my-output.numberSize");
+	const outputValue = inputValue.wuiToSizeString({});
+	output.innerHTML = "<pre>"
+		+ `<b>Number size formatting</b>\n`
+		+ `input value  : ${inputValue}\n`
+		+ `output value : ${outputValue}\n`
+		+ "</pre>";
+}
+
 // String format
 
 const emailValidation = () => {
