@@ -2,7 +2,7 @@
 
 ## Description
 
-This demo demonstrates the use of WUIForm with fill style and WUI inputs components.
+This demo shows the use of WUIForm with fill style and WUI inputs components.
 
 ## WUIJS Stack
 

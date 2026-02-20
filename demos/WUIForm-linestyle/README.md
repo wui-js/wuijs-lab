@@ -2,7 +2,7 @@
 
 ## Description
 
-This demo demonstrates the use of WUIForm with line style and native HTML inputs.
+This demo shows the use of WUIForm with line style and native HTML inputs.
 
 ## WUIJS Stack
 
