@@ -9,15 +9,18 @@ const init = () => {
 	});
 	const datepicker = new WUIDatepicker({
 		selector: ".wui-datepicker.my-datepicker",
-		value: "2026-02-20"
+		value: "2026-02-20",
+		boxAlign: "left"
 	});
 	const timepicker = new WUITimepicker({
 		selector: ".wui-timepicker.my-timepicker",
-		value: "12:00"
+		value: "12:00",
+		boxAlign: "left"
 	});
 	const colorpicker = new WUIColorpicker({
 		selector: ".wui-colorpicker.my-colorpicker",
-		value: "#ff0000"
+		value: "#ff0000",
+		boxAlign: "left"
 	});
 	const switchbox = new WUISwitch({
 		selector: ".wui-switch.my-switch",
