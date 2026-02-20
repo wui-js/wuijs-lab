@@ -1,5 +1,4 @@
 {
 	"template": "static",
-	"title": "WUITable - Basic demo",
-	"description": "Basic usage example of WUITable with simple pagination."
+	"title": "WUITable - Paging demo"
 }
