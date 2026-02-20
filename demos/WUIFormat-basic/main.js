@@ -98,6 +98,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	numberDefaults();
 	numberFormatting();
 	numberSizeFormatting();
+	numberModule11Formatting();
 	emailValidation();
 	localDateFormatting();
 	utcDateFormatting();
