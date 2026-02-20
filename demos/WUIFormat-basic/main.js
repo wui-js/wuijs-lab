@@ -10,7 +10,7 @@ const numberSetDefaults = () => {
 
 const numberFormatting = () => {
 	const inputValue = 1234.567;
-	const output = document.body.querySelector(".my-output.number");
+	const output = document.body.querySelector(".my-output.numberFormatting");
 	const outputValue = inputValue.wuiToString({ numberPrefix: "$ " });
 	output.innerHTML = "<pre>"
 		+ `<b>Numeric formatting</b>\n`
@@ -21,7 +21,7 @@ const numberFormatting = () => {
 
 const numberSizeFormatting = () => {
 	const inputValue = 1234.567;
-	const output = document.body.querySelector(".my-output.numberSize");
+	const output = document.body.querySelector(".my-output.numberSizeFormatting");
 	const outputValue = inputValue.wuiToSizeString({});
 	output.innerHTML = "<pre>"
 		+ `<b>Numeric digital size formatting</b>\n`
@@ -33,7 +33,7 @@ const numberSizeFormatting = () => {
 const numberModule11Formatting = () => {
 	const inputValue = 1234567;
 	const inputCode10 = "K";
-	const output = document.body.querySelector(".my-output.numberModule11");
+	const output = document.body.querySelector(".my-output.numberModule11Formatting");
 	const outputValue = inputValue.wuiToModule11(inputCode10);
 	output.innerHTML = "<pre>"
 		+ `<b>Numeric module 11 formatting</b>\n`
@@ -46,7 +46,7 @@ const numberModule11Formatting = () => {
 const numberModule23Formatting = () => {
 	const inputValue = 1234567;
 	const inputMap = "TRWAGMYFPDXBNJZSQVHLCKET";
-	const output = document.body.querySelector(".my-output.numberModule23");
+	const output = document.body.querySelector(".my-output.numberModule23Formatting");
 	const outputValue = inputValue.wuiToModule23(inputMap);
 	output.innerHTML = "<pre>"
 		+ `<b>Numeric module 23 formatting</b>\n`
@@ -158,7 +158,7 @@ const dateLocalFormatting = () => {
 	const inputFormat = "yyyy-mm-dd";
 	const inputValue = "2023-12-31";
 	const date = new Date().wuiLoad(inputValue, inputFormat);
-	const output = document.body.querySelector(".my-output.dateLocal");
+	const output = document.body.querySelector(".my-output.dateLocalFormatting");
 	const outputFormat = "dd/mm/yyyy hh:MM [GMT]zz";
 	const outputValue = date.wuiToString(outputFormat, { utc: false });
 	output.innerHTML = "<pre>"
@@ -175,7 +175,7 @@ const dateUTCFormatting = () => {
 	const inputFormat = "yyyy-mm-dd";
 	const inputValue = "2023-12-31";
 	const date = new Date().wuiLoad(inputValue, inputFormat);
-	const output = document.body.querySelector(".my-output.dateUTC");
+	const output = document.body.querySelector(".my-output.dateUTCFormatting");
 	const outputFormat = "dd/mm/yyyy hh:MM [GMT]zz";
 	const outputValue = date.wuiToString(outputFormat, { utc: true });
 	output.innerHTML = "<pre>"
