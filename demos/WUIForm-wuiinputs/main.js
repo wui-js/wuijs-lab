@@ -13,19 +13,19 @@ const init = () => {
 	wuiComponents.datepicker = new WUIDatepicker({
 		selector: ".wui-datepicker.my-datepicker",
 		value: "2026-02-20",
-		boxAlign: "left",
+		boxAlign: "right",
 		onOpen: () => { closePickers("datepicker"); }
 	});
 	wuiComponents.timepicker = new WUITimepicker({
 		selector: ".wui-timepicker.my-timepicker",
 		value: "12:00",
-		boxAlign: "left",
+		boxAlign: "right",
 		onOpen: () => { closePickers("timepicker"); }
 	});
 	wuiComponents.colorpicker = new WUIColorpicker({
 		selector: ".wui-colorpicker.my-colorpicker",
 		value: "#ff0000",
-		boxAlign: "left",
+		boxAlign: "right",
 		onOpen: () => { closePickers("colorpicker"); }
 	});
 	wuiComponents.switchbox = new WUISwitch({
