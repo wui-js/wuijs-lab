@@ -6,23 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Icon/WUIIcon-0.1.css">
 	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Form/WUIForm-0.3.css">
-	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Selectpicker/WUISelectpicker-0.2.css">
-	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Datepicker/WUIDatepicker-0.2.css">
-	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Timepicker/WUITimepicker-0.2.css">
-	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Colorpicker/WUIColorpicker-0.2.css">
-	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Switch/WUISwitch-0.3.css">
-	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Intencity/WUIIntencity-0.1.css">
-	<link type="text/css" rel="stylesheet" href="https://wuijs.dev/Libraries/WUI/Button/WUIButton-0.2.css">
 	<link type="text/css" rel="stylesheet" href="./WUI.css">
 	<link type="text/css" rel="stylesheet" href="./styles.css">
 	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Form/WUIForm-0.3.js"></script>
-	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Selectpicker/WUISelectpicker-0.2.js"></script>
-	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Datepicker/WUIDatepicker-0.2.js"></script>
-	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Timepicker/WUITimepicker-0.2.js"></script>
-	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Colorpicker/WUIColorpicker-0.2.js"></script>
-	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Switch/WUISwitch-0.3.js"></script>
-	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Intencity/WUIIntencity-0.1.js"></script>
-	<script type="text/javascript" src="https://wuijs.dev/Libraries/WUI/Button/WUIButton-0.2.js"></script>
 	<script type="text/javascript" src="./main.js"></script>
 </html>
 <body>
@@ -35,48 +21,64 @@
 				<fieldset>
 					<legend>Fieldset</legend>
 					<div class="field icon-left">
+						<div class="icon wui-icon text-left-line"></div>
+						<label>Text</label>
+						<input type="text" name="text" value="">
+					</div>
+					<div class="field icon-left">
 						<div class="icon wui-icon list-check-line"></div>
-						<label>Selectpicker</label>
-						<div class="wui-selectpicker my-selectpicker">
-							<select name="select">
-								<option value=""></option>
-								<option value="value1">value 1</option>
-								<option value="value2">value 2</option>
-								<option value="value3">value 3</option>
-							</select>
-						</div>
+						<label>Select</label>
+						<select name="select">
+							<option value=""></option>
+							<option value="value1">value 1</option>
+							<option value="value2">value 2</option>
+							<option value="value3">value 3</option>
+						</select>
 					</div>
 					<div class="field icon-left">
 						<div class="icon wui-icon calendar-line"></div>
-						<label>Datepicker</label>
-						<div class="wui-datepicker my-datepicker"><input type="date" name="date" value=""></div>
+						<label>Date</label>
+						<input type="date" name="date" value="">
 					</div>
 					<div class="field icon-left">
 						<div class="icon wui-icon time-line"></div>
-						<label>Timepicker</label>
-						<div class="wui-timepicker my-timepicker"><input type="time" name="time" value=""></div>
+						<label>Time</label>
+						<input type="time" name="time" value="">
+					</div>
+					<div class="field icon-left autosize">
+						<div class="icon wui-icon text-paragraph-line"></div>
+						<label for="wuiTextarea">Text area</label>
+						<textarea name="textarea"></textarea>
 					</div>
 					<div class="field icon-left inline noborder">
 						<div class="icon wui-icon palette-line"></div>
 						<label>Color</label>
-						<div class="wui-colorpicker my-colorpicker"><input type="color" name="color" value=""></div>
+						<input type="color" name="color" value="">
+					</div>
+					<div class="field icon-left noborder">
+						<div class="icon wui-icon thermometer-half-line"></div>
+						<label>Range</label>
+						<input type="range" name="range" value="">
 					</div>
 					<div class="field icon-left inline noborder">
 						<div class="icon wui-icon clipboard-check-line"></div>
-						<label for="checkbox" class="pointer">Switch</label>
-						<div class="wui-switch my-switch"><input id="checkbox" type="checkbox" name="checkbox" value="1"></div>
+						<label for="checkbox" class="pointer">Checkbox</label>
+						<input id="checkbox" type="checkbox" name="checkbox" value="1">
 					</div>
-					<div class="field icon-left inline noborder">
-						<div class="icon wui-icon thermometer-half-line"></div>
-						<label for="intencity" class="pointer">Intencity</label>
-						<div class="wui-intencity my-intencity"><input id="intencity" type="range" name="intencity" value="1"></div>
+					<div class="field icon-left">
+						<div class="icon wui-icon chat-left-text-line"></div>
+						<label>Data</label>
+						<data class="name" value="data">data</data>
+					</div>
+					<div class="text my-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</div>
+					<div class="message highlight center">
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</div>
 				</fieldset>
 			</div>
-			<div class="footer">
-				<button class="wui-button cancel">cancel</button>
-				<button class="wui-button accept submit">accept</button>
-			</div>
+			<div class="footer">Footer</div>
 		</form>
 	</nav>
 
