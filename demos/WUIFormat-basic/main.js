@@ -105,7 +105,7 @@ const stringIPv4Validation = () => {
 }
 
 const stringModule11Validation = () => {
-	const inputValue = "1234567";
+	const inputValue = "1234567-K";
 	const inputCode10 = "K";
 	const output = document.body.querySelector(".my-output.stringModule11Validation");
 	const outputValid = inputValue.wuiValidateModule11(inputCode10);
@@ -118,7 +118,7 @@ const stringModule11Validation = () => {
 }
 
 const stringModule23Validation = () => {
-	const inputValue = "1234567";
+	const inputValue = "1234567-L";
 	const inputMap = "TRWAGMYFPDXBNJZSQVHLCKET";
 	const output = document.body.querySelector(".my-output.stringModule23Validation");
 	const outputValid = inputValue.wuiValidateModule23(inputMap);
@@ -186,7 +186,6 @@ window.addEventListener("DOMContentLoaded", () => {
 	numberFormatting();
 	numberSizeFormatting();
 	numberModule11Formatting();
-	numberModule23Formatting();
 	stringDateValidation();
 	stringEmailValidation();
 	stringURLValidation();
