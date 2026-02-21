@@ -1,4 +1,4 @@
-# WUIIcon - List demo
+# WUIIcon - Basic demo
 
 ## Description
 
