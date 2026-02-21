@@ -1,15 +1,19 @@
 const init = () => {
 	const iconList = document.getElementById("iconList");
 	const results = new Set();
+	console.log(1);
 	for (const sheet of document.styleSheets) {
 		let rules;
+		console.log(sheet);
 		try {
 			rules = sheet.cssRules;
 		} catch (e) {
+			console.log(e);
 			continue;
 		}
 		if (!rules) continue;
 		for (const rule of rules) {
+			console.log(rule);
 			if (rule.selectorText) {
 				const selectors = rule.selectorText.split(",");
 				for (let selector of selectors) {
