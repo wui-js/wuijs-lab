@@ -41,11 +41,11 @@ const init = () => {
 		}, {
 			id: "row9", data: ["A 9", "B 9", "C 9", "D 9"]
 		}, {
-			id: "row10", data: ["A 10", "B 10", "C10", "D 10"]
+			id: "row10", data: ["A 10", "B 10", "C 10", "D 10"]
 		}, {
-			id: "row11", data: ["A 11", "B 11", "C11", "D 11"]
+			id: "row11", data: ["A 11", "B 11", "C 11", "D 11"]
 		}, {
-			id: "row12", data: ["A 12", "B 12", "C12", "D 12"]
+			id: "row12", data: ["A 12", "B 12", "C 12", "D 12"]
 		}],
 		align: "center",
 		//valign: "middle",
