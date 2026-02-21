@@ -10,14 +10,17 @@ body {
 	font-size: 14px;
 }
 
+nav {
+	display: flex;
+	margin: 10px;
+	align-items: center;
+	gap: 10px;
+}
+
 .my-selectpicker {
 	max-width: 200px;
 }
 
 .my-output {
-	position: absolute;
-	top: 4px;
-	left: 210px;
-	margin: 10px;
 	font-family: monospace;
 }
