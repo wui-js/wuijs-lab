@@ -1,17 +1,17 @@
 const init = () => {
 	const element = document.getElementById("myElement");
-	const fadeinLink = document.querySelector(".my-link.fadein");
-	const fadeoutLink = document.querySelector(".my-link.fadeout");
+	const fadeinButton = document.querySelector(".my-button.fadein");
+	const fadeoutButton = document.querySelector(".my-button.fadeout");
 	const options = {
 		delay: 200,
 		//display: "block"
 	};
-	fadeinLink.addEventListener("click", () => {
+	fadeinButton.addEventListener("click", () => {
 		element.wuiFadein(options);
 		// or alternatively
 		//WUIFade.in(element, options);
 	});
-	fadeoutLink.addEventListener("click", () => {
+	fadeoutButton.addEventListener("click", () => {
 		element.wuiFadeout(options);
 		// or alternatively
 		//WUIFade.out(element, options);

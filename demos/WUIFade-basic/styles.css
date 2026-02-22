@@ -17,8 +17,9 @@ nav {
 	gap: 10px;
 }
 
-.my-link {
-	text-decoration: none;
+.my-button {
+	margin: 0;
+	padding: 0px 5px;
 }
 
 .my-element {
