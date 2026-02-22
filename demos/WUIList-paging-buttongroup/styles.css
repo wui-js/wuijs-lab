@@ -16,12 +16,12 @@ header {
 	text-align: right;
 }
 
-.my-link {
-	margin: 0 10px;
-	text-decoration: none;
+.my-button {
+	margin: 0;
+	padding: 5px 10px;
 }
 
-.my-link.disabled {
+.my-button.disabled {
 	color: #ccc;
 }
 

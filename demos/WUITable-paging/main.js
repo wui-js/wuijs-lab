@@ -1,8 +1,8 @@
 const init = () => {
-	const firstLink = document.body.querySelector(".my-link.first");
-	const prevLink = document.body.querySelector(".my-link.prev");
-	const nextLink = document.body.querySelector(".my-link.next");
-	const lastLink = document.body.querySelector(".my-link.last");
+	const firstButton = document.body.querySelector(".my-button.first");
+	const prevButton = document.body.querySelector(".my-button.prev");
+	const nextButton = document.body.querySelector(".my-button.next");
+	const lastButton = document.body.querySelector(".my-button.last");
 	const paging = document.body.querySelector(".my-paging");
 	const output = document.body.querySelector(".my-output");
 	const table = new WUITable({
@@ -56,18 +56,18 @@ const init = () => {
 		//selectable: true,
 		onPrint: (page, pages, total) => {
 			if (table.hasPrevPage()) {
-				firstLink.classList.remove("disabled");
-				prevLink.classList.remove("disabled");
+				firstButton.classList.remove("disabled");
+				prevButton.classList.remove("disabled");
 			} else {
-				firstLink.classList.add("disabled");
-				prevLink.classList.add("disabled");
+				firstButton.classList.add("disabled");
+				prevButton.classList.add("disabled");
 			}
 			if (table.hasNextPage()) {
-				lastLink.classList.remove("disabled");
-				nextLink.classList.remove("disabled");
+				lastButton.classList.remove("disabled");
+				nextButton.classList.remove("disabled");
 			} else {
-				lastLink.classList.add("disabled");
-				nextLink.classList.add("disabled");
+				lastButton.classList.add("disabled");
+				nextButton.classList.add("disabled");
 			}
 			paging.innerHTML = `${page}/${pages} (${total})`;
 		},
@@ -82,23 +82,23 @@ const init = () => {
 		}
 	});
 	table.init();
-	firstLink.addEventListener("click", () => {
-		if (!firstLink.classList.contains("disabled")) {
+	firstButton.addEventListener("click", () => {
+		if (!firstButton.classList.contains("disabled")) {
 			table.firstPage();
 		}
 	});
-	prevLink.addEventListener("click", () => {
-		if (!prevLink.classList.contains("disabled")) {
+	prevButton.addEventListener("click", () => {
+		if (!prevButton.classList.contains("disabled")) {
 			table.prevPage();
 		}
 	});
-	lastLink.addEventListener("click", () => {
-		if (!lastLink.classList.contains("disabled")) {
+	lastButton.addEventListener("click", () => {
+		if (!lastButton.classList.contains("disabled")) {
 			table.lastPage();
 		}
 	});
-	nextLink.addEventListener("click", () => {
-		if (!nextLink.classList.contains("disabled")) {
+	nextButton.addEventListener("click", () => {
+		if (!nextButton.classList.contains("disabled")) {
 			table.nextPage();
 		}
 	});
