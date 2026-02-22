@@ -11,9 +11,12 @@ body {
 }
 
 header {
+	display: flex;
 	width: 600px;
 	margin: 10px;
-	text-align: right;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 5px;
 }
 
 .my-button {
@@ -26,7 +29,6 @@ header {
 }
 
 .my-paging {
-	display: inline;
 	font-size: 16px;
 }
 
