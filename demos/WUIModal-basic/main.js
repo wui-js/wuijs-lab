@@ -1,17 +1,18 @@
 const init = () => {
 	const button = document.querySelector(".my-button");
+	const output = document.body.querySelector(".my-output");
 	const modal = new WUIModal({
 		selector: ".wui-modal.my-modal",
 		//openDelay: 200,
 		//onStartOpen: null,
 		onOpen: () => {
-			console.log("Modal opened");
+			output.textContent = `Modal opened"`;
 		},
 		//onMaximize: null,
 		//onScrolling: null,
 		//onStartClose: null,
 		onClose: () => {
-			console.log("Modal closed");
+			output.textContent = `Modal closed"`;
 		}
 		//onBack: null
 	});
