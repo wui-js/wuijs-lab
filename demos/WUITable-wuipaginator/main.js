@@ -78,7 +78,7 @@ const init = () => {
 
 		}
 	});
-	firstButton.addEventListener("click", () => {
+	/*firstButton.addEventListener("click", () => {
 		if (!firstButton.classList.contains("disabled")) {
 			table.firstPage();
 		}
@@ -97,7 +97,7 @@ const init = () => {
 		if (!nextButton.classList.contains("disabled")) {
 			table.nextPage();
 		}
-	});
+	});*/
 	Object.values(wuiComponents).forEach((component) => {
 		component.init();
 	});
