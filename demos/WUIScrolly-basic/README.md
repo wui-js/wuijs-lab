@@ -6,7 +6,7 @@ This demo shows the use of WUIScrolly's basic functionality.
 
 ## WUIJS Stack
 
-- WUIScrolly - 0.2
+- WUIScrolly - 0.3
 
 ## Documentation
 
