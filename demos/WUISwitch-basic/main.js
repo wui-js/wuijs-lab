@@ -1,6 +1,6 @@
 const init = () => {
 	const output = document.body.querySelector(".my-output");
-	const checkbox = new WUISwitch({
+	const switchbox = new WUISwitch({
 		selector: ".wui-switch.my-switch",
 		value: "1",
 		activated: true,
@@ -9,7 +9,7 @@ const init = () => {
 			output.textContent = `Change - value: ${value}, activated: ${activated}`;
 		}
 	});
-	checkbox.init();
+	switchbox.init();
 }
 
 window.addEventListener("DOMContentLoaded", init);

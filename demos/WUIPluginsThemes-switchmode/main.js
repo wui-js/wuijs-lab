@@ -1,19 +1,20 @@
 const wuiComponents = {};
+const wuiPlugins = {};
 
 const init = () => {
-	const themes = new WUIPluginThemes();
-	wuiComponents.switch = new WUISwitch({
+	wuiComponents.switchbox = new WUISwitch({
 		selector: ".wui-switch.my-switch",
 		value: "1",
-		activated: true,
+		activated: false,
 		onChange: (value, activated) => {
-			themes.setScheme(activated ? "dark" : "light");
+			wuiPlugins.themes.setScheme(activated ? "dark" : "light");
 		}
 	});
 	wuiComponents.selectpicker = new WUISelectpicker({
 		selector: ".wui-selectpicker.my-selectpicker",
 		value: "2"
 	});
+	wuiPlugins.themes = new WUIPluginThemes();
 	Object.values(wuiComponents).forEach((component) => {
 		component.init();
 	});
