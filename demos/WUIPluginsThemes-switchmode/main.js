@@ -2,6 +2,13 @@ const wuiComponents = {};
 
 const init = () => {
 	const themes = new WUIPluginThemes();
+	wuiComponents.switch = new WUISwitch({
+		selector: ".wui-switch.my-switch",
+		activated: false,
+		onChange: (value, activated) => {
+			themes.setScheme(activated ? "dark" : "light");
+		}
+	});
 	wuiComponents.selectpicker = new WUISelectpicker({
 		selector: ".wui-selectpicker.my-selectpicker",
 		value: "2"
@@ -9,7 +16,6 @@ const init = () => {
 	Object.values(wuiComponents).forEach((component) => {
 		component.init();
 	});
-	themes.setScheme("dark");
 }
 
 window.addEventListener("wuiLoad", init);
