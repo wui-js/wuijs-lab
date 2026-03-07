@@ -17,4 +17,8 @@ nav {
 	gap: 10px;
 }
 
+.my-selectpicker {
+	max-width: 200px;
+}
+
 /*.my-switch {}*/
