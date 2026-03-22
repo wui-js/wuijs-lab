@@ -4,7 +4,7 @@
 
 This demo shows the use of WUITimepicker's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUITimepicker - 0.3
 

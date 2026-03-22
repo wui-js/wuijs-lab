@@ -4,7 +4,7 @@
 
 This demo shows the use of WUISwitch's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUISwitch - 0.4
 

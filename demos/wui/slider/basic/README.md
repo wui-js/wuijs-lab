@@ -4,7 +4,7 @@
 
 This demo shows the use of WUISlider's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUISlider - 0.4
 

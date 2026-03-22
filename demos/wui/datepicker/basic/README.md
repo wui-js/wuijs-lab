@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIDatepicker's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIDatepicker - 0.3
 

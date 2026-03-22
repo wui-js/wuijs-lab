@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIModal's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIIcon - 0.2
 - WUIModal - 0.3

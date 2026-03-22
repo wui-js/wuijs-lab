@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIForm with line style and native HTML inputs.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIIcon - 0.2
 - WUIForm - 0.4

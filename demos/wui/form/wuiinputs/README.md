@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIForm with fill style and WUI inputs components.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIIcon - 0.2
 - WUIForm - 0.4

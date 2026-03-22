@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIScrolly's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIScrolly - 0.4
 

@@ -6,7 +6,7 @@ This demo shows the use of WUIList's pagination functionality through HTML butto
 The side button group with pull cover is configured with two buttons, one associated with a possible editing functionality and the other with deletion.
 List data is loaded directly in component creation.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIIcon - 0.2
 - WUIList - 0.3

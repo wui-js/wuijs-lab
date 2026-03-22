@@ -4,7 +4,7 @@
 
 This demo shows the use of WUICookie's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUICookie - 0.3
 

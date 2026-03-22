@@ -5,7 +5,7 @@
 This demo shows the use of WUITable's pagination functionality through HTML buttons.
 Table data is loaded directly in component creation.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUITable - 0.4
 

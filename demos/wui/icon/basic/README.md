@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIIcon's basic implementation.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIIcon - 0.2
 

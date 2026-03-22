@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIColorpicker's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIColorpicker - 0.3
 

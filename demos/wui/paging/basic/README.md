@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIPaging's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIPaging - 0.3
 

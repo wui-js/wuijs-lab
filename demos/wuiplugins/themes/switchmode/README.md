@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIPluginsThemes's switch light and dark mode functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIPluginsThemes - 0.2
 - WUISwitch - 0.4

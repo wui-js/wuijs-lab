@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIIntensity's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIIntensity - 0.2
 

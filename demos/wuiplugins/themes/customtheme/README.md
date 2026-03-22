@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIPluginsThemes's custom predefined themes.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIPluginsThemes - 0.2
 - WUISwitch - 0.4

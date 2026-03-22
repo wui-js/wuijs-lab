@@ -4,7 +4,7 @@
 
 This demo shows the use of WUIFade's basic functionality.
 
-## WUIJS Stack
+## WUI JS Stack
 
 - WUIFade - 0.2
 
