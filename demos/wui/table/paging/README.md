@@ -11,5 +11,5 @@ Table data is loaded directly in component creation.
 
 ## Documentation
 
-- [WUIJS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUITable](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuitable): WUITable component documentation.

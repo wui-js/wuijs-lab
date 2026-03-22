@@ -10,5 +10,5 @@ This demo shows the use of WUISlider's basic functionality.
 
 ## Documentation
 
-- [WUIJS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUISlider](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wui-slider): WUISlider component documentation.

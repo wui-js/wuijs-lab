@@ -10,5 +10,5 @@ This demo shows the use of WUIScrolly's basic functionality.
 
 ## Documentation
 
-- [WUIJS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUIScrolly](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiscrolly): WUIScrolly utilities documentation.
