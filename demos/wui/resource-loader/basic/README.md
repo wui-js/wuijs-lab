@@ -6,12 +6,12 @@ This demo shows the use of the WUI Resource Loader script.
 
 ## WUI JS Stack
 
-- WUI JS Lib - 0.4.0
+- WUI/JS Lib - 0.4.0
 - WUISelectpicker - 0.3
 - WUISwitch - 0.4
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUISelectpicker](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wselectpicker): WUISelectpicker component documentation.
 - [WUISwitch](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiswitch): WUISwitch component documentation.
