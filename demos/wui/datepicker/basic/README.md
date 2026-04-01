@@ -10,5 +10,5 @@ This demo shows the use of WUIDatepicker's basic functionality.
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUIDatepicker](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuidatepicker): WUIDatepicker component documentation.

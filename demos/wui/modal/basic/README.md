@@ -11,6 +11,6 @@ This demo shows the use of WUIModal's basic functionality.
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUIIcon](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIIcon component documentation.
 - [WUIModal](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiModal): WUIModal component documentation.

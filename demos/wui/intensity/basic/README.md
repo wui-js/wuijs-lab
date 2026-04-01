@@ -10,5 +10,5 @@ This demo shows the use of WUIIntensity's basic functionality.
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUIIntensity](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiintensity): WUIIntensity component documentation.

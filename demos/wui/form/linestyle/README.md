@@ -11,6 +11,6 @@ This demo shows the use of WUIForm with line style and native HTML inputs.
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUIIcon](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIIcon component documentation.
 - [WUIForm](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIForm component documentation.

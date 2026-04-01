@@ -10,5 +10,5 @@ This demo shows the use of WUISwitch's basic functionality.
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUISwitch](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiswitch): WUISwitch component documentation.

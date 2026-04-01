@@ -18,7 +18,7 @@ This demo shows the use of WUIForm with fill style and WUI inputs components.
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUIIcon](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIIcon component documentation.
 - [WUIForm](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIForm component documentation.
 - [WUISelectpicker](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wselectpicker): WUISelectpicker component documentation.

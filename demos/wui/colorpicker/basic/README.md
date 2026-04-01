@@ -10,5 +10,5 @@ This demo shows the use of WUIColorpicker's basic functionality.
 
 ## Documentation
 
-- [WUI JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
+- [WUI/JS Lib](https://github.com/wuijsproject/wuijs-lib): Global documentation.
 - [WUIColorpicker](https://github.com/wuijsproject/wuijs-lib?tab=readme-ov-file#wuiicon): WUIColorpicker component documentation.
