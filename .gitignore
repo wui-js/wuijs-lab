@@ -8,7 +8,17 @@ Thumbs.db
 # Editor generated files
 
 .vscode
+.claude
+CLAUDE.md
+MEMORY.md
+NOTES.md
 
-# Trash develop
+# App generated files
+
+*.log
+
+# Develop genereted files
 
 _*
+*.bak
+

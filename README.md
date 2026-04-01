@@ -1,5 +1,7 @@
 ## Demos
 
+The WUI/JS Lab demos are available on CodeSandbox.io at the following address [https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab).
+
 ## WUI/JS Lib
 
 1.	[https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab/tree/main/demos/wui/resource-loader/basic](https://codesandbox.io/p/sandbox/github/wuijsproject/wuijs-lab/tree/main/demos/wui/resource-loader/basic)<br>
