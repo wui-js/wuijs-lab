@@ -1,8 +1,8 @@
 > [!IMPORTANT]
-> La cuenta de GitHub `wuiproject` se migró a `wui-js` para que coincidiera con el nombre de la cuenta de NPM.
+> The GitHub account `@wuiproject` was migrated to `@wui-js` to match the name with the NPM account.
 
 > [!NOTE]
-> For the English version of this document, see [README.md](./README.md).
+> Para la versión en Español de este documento, consulte [README-es.md](https://github.com/wui-js/wuijs-environment-lib/blob/main/docs/README-es.md).
 
 # wuijs-lab
 
@@ -10,86 +10,86 @@
 	<img src="https://github.com/wui-js/wuijs-lab/blob/main/imgs/logo/wuijs-lab-logotype-color.svg" width="220" height="220">
 </div>
 
-**Licencia**: `Licencia Apache 2.0`
+**License**: `Apache License 2.0`
 
-**Autor**: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
+**Author**: `Sergio E. Belmar V. <wuijs.project@gmail.com>`
 
-## Descripción General
+## Overview
 
-WUI/JS Lab es una compilación de los ejemplos o demos incluidos en la documentación de las librerías de WUI/JS Main Lib y WUI/JS Plugins Lib.
-Se integra con CodeSandbox.io para facilitar la visualización y prueba de los demos, no obstante el proyecto puede ser descargado para su ejecución local.
-Este repositorio no incorpora las fuentes de las librerías [wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib) y [wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib), solo los ejemplos de uso haciendo referencia al dominio [wuijs.dev](https://wuijs.dev).
+WUI/JS Lab is a compilation of the examples or demos included in the documentation for the WUI/JS Main Lib and WUI/JS Plugins Lib libraries.
+It integrates with CodeSandbox.io to facilitate viewing and testing the demos; however, the project can also be downloaded for local execution.
+This repository does not include the source code for the [wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib) and [wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib) libraries, only the usage examples referencing the [wuijs.dev](https://wuijs.dev) domain.
 
-### Acerca del Proyecto WUI/JS
+### About the WUI/JS Project
 
-WUI/JS Lab es parte del proyecto WUI/JS, que consta actualmente de 3 repositorios:
+WUI/JS Lab is part of the WUI/JS project, which currently consists of 3 repositories:
 
 -	[https://github.com/wui-js/wuijs-main-lib](https://github.com/wui-js/wuijs-main-lib)<br>
-	Librería UI principal.<br><br>
+	UI main library.<br><br>
 -	[https://github.com/wui-js/wuijs-plugins-lib](https://github.com/wui-js/wuijs-plugins-lib)<br>
-	Librería de complementos UI.<br><br>
+	UI plugins library.<br><br>
 -	[https://github.com/wui-js/wuijs-lab](https://github.com/wui-js/wuijs-lab)<br>
-	Repositorio con demos y ejemplos de uso de las librerías del proyecto.<br><br>
+	Repository with demos and usage examples for the project libraries.<br><br>
 
 ## Demos
 
-Los demos de WUI/JS Lab están disponibles en CodeSandbox.io en la siguiente dirección [https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab).
+The WUI/JS Lab demos are available on CodeSandbox.io at the following address [https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab).
 
 ## WUI/JS Main Lib
 
 1.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/resource-loader/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/resource-loader/basic)<br>
-	Esta demostración muestra el uso del script cargador de recursos de WUI.<br><br>
+	This demo shows the use of the WUI Resource Loader script.<br><br>
 2.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/cookie/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/cookie/basic)<br>
-	Esta demostración muestra el uso de la funcionalidad básica de WUICookie.<br><br>
+	This demo shows the use of WUICookie's basic functionality.<br><br>
 3.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/body/import](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/body/import)<br>
-	Esta demostración muestra el uso de la funcionalidad de importación de WUIBody.<br><br>
+	This demo shows the use of WUIBody's import functionality.<br><br>
 4.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/scrolly/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/scrolly/basic)<br>
-	Esta demostración muestra el uso de la funcionalidad básica de WUIScrolly.<br><br>
+	This demo shows the use of WUIScrolly's basic functionality.<br><br>
 5.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/icon/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/icon/basic)<br>
-	Esta demostración muestra el uso de la funcionalidad básica de WUIIcon.<br><br>
+	This demo shows the use of WUIIcon's basic implementation.<br><br>
 6.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/fade/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/fade/basic)<br>
-	Esta demostración muestra el uso de la funcionalidad básica de WUIFade.<br><br>
+	This demo shows the use of WUIFade's basic functionality.<br><br>
 7.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/modal/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/modal/basic)<br>
-	Esta demostración muestra el uso de la funcionalidad básica de WUIModal.<br><br>
+	This demo shows the use of WUIModal's basic functionality.<br><br>
 8.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/paging/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/paging/basic)<br>
-	Esta demostración muestra el uso de la funcionalidad de submenú de WUIPaging.<br><br>
+	This demo shows the use of WUIPaging's submenu functionality.<br><br>
 9.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/slider/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/slider/basic)<br>
-	Esta demostración muestra el uso de la funcionalidad de submenú de WUISlider.<br><br>
+	This demo shows the use of WUISlider's basic functionality.<br><br>
 10.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/menubar/submenu](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/menubar/submenu)<br>
-	Esta demostración muestra el uso de la funcionalidad de submenú de WUIMenubar.<br><br>
+	This demo shows the use of WUIMenubar's submenu functionality.<br><br>
 11.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/list/paging-buttongroup](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/list/paging-buttongroup)<br>
-	Esta demostración muestra el uso de la funcionalidad de paginación de WUIList mediante botones HTML.<br>
-	El grupo de botones laterales con tapa extraíble está configurado con dos botones: uno asociado con una posible función de edición y el otro con la de eliminación.<br>
-	Los datos de la lista se cargan directamente durante la creación del componente.<br><br>
+	This demo shows the use of WUIList's pagination functionality through HTML buttons.<br>
+	The side button group with pull cover is configured with two buttons, one associated with a possible editing functionality and the other with deletion.<br>
+	List data is loaded directly in component creation.<br><br>
 12.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/table/paging](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/table/paging)<br>
-	Esta demostración muestra el uso de la función de paginación de WUITable mediante botones HTML.<br>
-	Los datos de la tabla se cargan directamente durante la creación del componente.<br><br>
+	This demo shows the use of WUITable's pagination functionality through HTML buttons.<br>
+	Table data is loaded directly in component creation.<br><br>
 13.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/form/fillstyle](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/form/fillstyle)<br>
-	Esta demo muestra el uso de WUIForm con estilo de relleno y entradas HTML nativas.<br><br>
+	This demo shows the use of WUIForm with fill style and native HTML inputs.<br><br>
 14.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/form/linestyle](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/form/linestyle)<br>
-	Esta demo muestra el uso de WUIForm con estilo de línea y entradas HTML nativas.<br><br>
+	This demo shows the use of WUIForm with line style and native HTML inputs.<br><br>
 15.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/form/wuiinputs](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/form/wuiinputs)<br>
-	Esta demostración muestra el uso de WUIForm con estilo de relleno y componentes de entrada WUI.<br><br>
+	This demo shows the use of WUIForm with fill style and WUI inputs components.<br><br>
 16.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/format/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/format/basic)<br>
-	Esta demostración muestra el uso de WUIFormat para el formato de números, cadenas y fechas.<br><br>
+	This demo shows the use of WUIFormat for number, string and date formatting.<br><br>
 17.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/selectpicker/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/selectpicker/basic)<br>
-	Esta demo muestra el uso de las funciones básicas de WUISelectpicker.<br><br>
+	This demo shows the use of WUISelectpicker's basic functionality.<br><br>
 18.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/datepicker/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/datepicker/basic)<br>
-	Esta demo muestra el uso de las funciones básicas de WUIDatepicker.<br><br>
+	This demo shows the use of WUIDatepicker's basic functionality.<br><br>
 19.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/timepicker/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/datepicker/basic)<br>
-	Esta demo muestra el uso de las funciones básicas de WUITimepicker.<br><br>
+	This demo shows the use of WUITimepicker's basic functionality.<br><br>
 20.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/colorpicker/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/datepicker/basic)<br>
-	Esta demo muestra el uso de las funciones básicas de WUIColorpicker.<br><br>
+	This demo shows the use of WUIColorpicker's basic functionality.<br><br>
 21.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/switch/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/switch/basic)<br>
-	Esta demo muestra el uso de las funciones básicas de WUISwitch.<br><br>
+	This demo shows the use of WUISwitch's basic functionality.<br><br>
 22.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/intensity/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/intensity/basic)<br>
-	Esta demo muestra el uso de las funciones básicas de WUIIntensity.<br><br>
+	This demo shows the use of WUIIntensity's basic functionality.<br><br>
 23.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/button/basic](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/main/button/basic)<br>
-	Esta demostración muestra el uso de las funciones básicas de WUIButton.<br><br>
+	This demo shows the use of WUIButton's basic functionality.<br><br>
 
 ## WUI/JS Plugins Lib
 
 1.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/plugins/themes/switchmode](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/plugins/themes/switchmode)<br>
-	Esta demostración muestra el uso de la funcionalidad de cambiar entre modo claro y oscuro de WUIPluginThemes.<br><br>
+	This demo shows the use of WUIPluginThemes's switch light and dark mode functionality.<br><br>
 2.	[https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/plugins/themes/customtheme](https://codesandbox.io/p/sandbox/github/wui-js/wuijs-lab/tree/main/demos/plugins/themes/customtheme)<br>
-	Esta demostración muestra el uso de los temas predefinidos personalizados de WUIPluginThemes.<br><br>
+	This demo shows the use of WUIPluginThemes's custom predefined themes.<br><br>

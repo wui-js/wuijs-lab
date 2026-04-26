@@ -7,7 +7,7 @@ This demo shows the use of WUIButton's basic functionality.
 ## WUI JS Stack
 
 - WUIIcon - 0.2
-- WUIButton - 0.3
+- WUIButton - 0.4
 
 ## Documentation
 

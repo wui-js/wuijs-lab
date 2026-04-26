@@ -2,7 +2,13 @@ const init = () => {
 	const output = document.body.querySelector(".my-output");
 	const button1 = new WUIButton({
 		selector: ".wui-button.button1",
-		//text: "",
+		//textClass: null,
+		//textData: null,
+		//iconClass: null,
+		//iconImage: null,
+		//submit: false,
+		//warning: false,
+		//flat: false,
 		//selectable: false,
 		//locked: false,
 		//enabled: true,
@@ -15,10 +21,10 @@ const init = () => {
 	});
 	const button2 = new WUIButton({
 		selector: ".wui-button.button2",
-		//text: "",
-		//selectable: false,
-		//locked: false,
-		//enabled: true,
+		iconClass: "wui-icon float-left mappointer-fill",
+		textClass: "my-label",
+		textData: [["action", "navigate"]],
+		submit: true,
 		onClick: () => {
 			output.textContent = "Click button 2";
 		},

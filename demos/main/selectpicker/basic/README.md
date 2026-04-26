@@ -6,7 +6,7 @@ This demo shows the use of WUISelectpicker's basic functionality.
 
 ## WUI JS Stack
 
-- WUISelectpicker - 0.3
+- WUISelectpicker - 0.4
 
 ## Documentation
 
